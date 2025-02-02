@@ -12,7 +12,7 @@ body {
 }
 
 main {
-    padding: 15px;
+    padding: 1em;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -40,11 +40,11 @@ div#crypto > p {
 div#crypto-top {
     display: flex;
     align-items: center;
-    margin-bottom: 5px;
+    margin-bottom: .3em;
 }
 
 div#crypto-top > span {
-    margin-left: 10px;
+    margin-left: .6em;
 }
 
 div#weather {
@@ -53,7 +53,7 @@ div#weather {
     flex-wrap: wrap;
     justify-content: flex-end;
     align-self: flex-start;
-    margin-top: -20px;
+    margin-top: -1.25em;
 }
 
 div#weather > img {
@@ -64,14 +64,14 @@ p.weather-city {
     width: 100%;
     text-align: right;
     margin: 0;
-    margin-top: -10px;
+    margin-top: -0.625em;
     font-size: 1.2rem;
 }
 
 p.weather-temp {
     margin: 0;
     font-size: 1.7rem;
-    margin-left: -10px;
+    margin-left: -0.625em;
 }
 
 p#author {
